@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+cpanfile
+dist.ini
+lib/DBIx/Introspector.pm
+lib/DBIx/Introspector/Driver.pm
+t/basic.t
+t/dsn.t
+t/eg.t
+t/fresh.t
+t/release-pod-syntax.t
