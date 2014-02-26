@@ -160,6 +160,14 @@ sub get {
 sub _driver_for {
    my ($self, $dbh, $dsn) = @_;
 
+   if ($dbh and my $d = $dbh->{private_dbii_driver}) {
+      if (my $found = $self->_drivers_by_name->{$d}) {
+         return $found
+      } else {
+         warn "user requested non-existant driver $d"
+      }
+   }
+
    my $driver = $self->_root_driver;
    my $done;
 
@@ -191,7 +199,7 @@ DBIx::Introspector - Detect what database you are connected to
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 
@@ -407,7 +415,7 @@ Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Arthur Axel "fREW" Schmidt.
+This software is copyright (c) 2014 by Arthur Axel "fREW" Schmidt.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
