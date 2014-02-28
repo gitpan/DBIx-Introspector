@@ -1,5 +1,5 @@
 package DBIx::Introspector;
-
+$DBIx::Introspector::VERSION = '0.001002';
 # ABSTRACT: Detect what database you are connected to
 
 use Moo;
@@ -199,7 +199,7 @@ DBIx::Introspector - Detect what database you are connected to
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 

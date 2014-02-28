@@ -2,7 +2,7 @@ NAME
     DBIx::Introspector - Detect what database you are connected to
 
 VERSION
-    version 0.001001
+    version 0.001002
 
 SYNOPSIS
      my $d = DBIx::Introspector->new(drivers => '2013-12.01');
