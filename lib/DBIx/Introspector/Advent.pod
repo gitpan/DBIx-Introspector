@@ -1,6 +1,22 @@
+# PODNAME: DBIx::Introspector::Advent
+
+# ABSTRACT: Original Announcement of ::ResultSet::DateMethods1
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
 =head1 NAME
 
-DBIx::Introspector - Shake those gifts and figure out what's inside!
+DBIx::Introspector::Advent - Original Announcement of ::ResultSet::DateMethods1
+
+=head1 VERSION
+
+version 0.001003
+
+=head1 Content
 
 =head1 TEXT
 
@@ -116,3 +132,16 @@ has been blocking on exactly this problem.  Furthermore a
 number of already existing modules could be improved by the use of
 C<DBIx::Introspector>, most notably L<DBIx::Connector>, which doesn't
 work for anything using ODBC, ADO, and other non-one-to-one drives.
+
+=head1 AUTHOR
+
+Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Arthur Axel "fREW" Schmidt.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
