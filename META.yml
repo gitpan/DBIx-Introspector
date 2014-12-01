@@ -7,9 +7,9 @@ build_requires:
   Test::More: '0.99'
   Test::Roo: '1.002'
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,4 +21,4 @@ requires:
 resources:
   homepage: https://github.com/frioux/DBIx-Introspector
   repository: https://github.com/frioux/DBIx-Introspector.git
-version: '0.001003'
+version: '0.001004'

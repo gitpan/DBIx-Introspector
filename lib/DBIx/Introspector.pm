@@ -1,5 +1,5 @@
 package DBIx::Introspector;
-$DBIx::Introspector::VERSION = '0.001003';
+$DBIx::Introspector::VERSION = '0.001004';
 # ABSTRACT: Detect what database you are connected to
 
 use Moo;
@@ -199,7 +199,7 @@ DBIx::Introspector - Detect what database you are connected to
 
 =head1 VERSION
 
-version 0.001003
+version 0.001004
 
 =head1 SYNOPSIS
 
@@ -232,7 +232,7 @@ that it has been written to be very extensible.  So if you needed to
 detect which version of your given database you are connected to that
 would not be difficult.
 
-Furthermore, C<DBIx::Introspector> does it's best to try to detect information
+Furthermore, C<DBIx::Introspector> does its best to try to detect information
 based on the dsn you give it if you have not yet connected, so you can possibly
 avoid connection or at least defer connection.
 
